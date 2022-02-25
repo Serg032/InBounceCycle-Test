@@ -16,6 +16,7 @@
     <ul class="social-icons">
       <li>
         <a
+          class="headerIcon"
           href="https://www.facebook.com/InboundCycle"
           target="_blank"
           title="Visita nuestra cuenta de Facebook de InboundCycle"
@@ -25,6 +26,7 @@
       </li>
       <li>
         <a
+          class="headerIcon"
           href="https://twitter.com/inboundcycle"
           target="_blank"
           title="Visitar el Twitter de InboundCycle"
@@ -34,6 +36,7 @@
       </li>
       <li>
         <a
+          class="headerIcon"
           href="https://www.linkedin.com/company/2387654"
           target="_blank"
           title="Visitar el LinkedIn de InboundCycle"
@@ -86,7 +89,7 @@
     <!-- Aside -->
     <aside>
       <!-- Download form -->
-      <form action="post">
+      <form>
         <h3>Descargar e-book gratis</h3>
         <fieldset>
           <input type="text" name="name" placeholder="Nombre" />
@@ -96,7 +99,7 @@
         <fieldset>
           <label
             ><input type="checkbox" name="legal" /> Acepto la
-            <a href="#" title="Lea nuestra política de privacidad"
+            <a class="poli" href="#" title="Lea nuestra política de privacidad"
               >política de privacidad</a
             >*</label
           >
@@ -105,7 +108,7 @@
             blog</label
           >
         </fieldset>
-        <button type="submit">Descargar</button>
+        <button class="popUpButton" type="submit">Descargar</button>
       </form>
     </aside>
   </div>
@@ -141,10 +144,12 @@
     </div>
   </footer>
   <!-- Pop-up -->
-  <!-- <div class="popup">
+  <div class="popup">
     <div class="caption">
       <i class="fa fa-times"></i>
       <p>¡Muchas gracias!</p>
+      <!-- <button class="close">ok</button> -->
     </div>
-  </div> -->
+  </div>
+  <script src="./js/popUp.js"></script>
 </body>
